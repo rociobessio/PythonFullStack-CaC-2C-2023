@@ -1,0 +1,147 @@
+********************* CREAR ARCHIVOS HTML ********************* 
+{
+    Siempre ira el nombre y la extensión .html
+    ! => Me permite autocompletar la estructura HTML básica.
+
+    ------------------ TEMPLATES ------------------{ 
+        La carpeta templates contendrá el resto de ARCHIVOS
+        html que no sean el "index.html"
+    }
+}
+
+********************* COMENTARIOS ********************* 
+{
+    CTRL + K + C => Me permite COMENTAR lineas de codigo.
+    CTRL + K + CU => Me permite DESCOMENTAR lineas de codigo.
+} 
+
+
+
+********************* ETIQUETAS ********************* 
+{
+    Las etiquetas agregan comportamientos y modifican la pagina.
+
+   ------------------ TIPOS ------------------
+   {
+        ------------------ ESTRUCTURA GENERAL ------------------{
+
+            ========> ENCABEZADO (<header></header>) <========{
+                Contiene el encabezado de la página web
+            }
+
+            ========> CUERPO PRINCIPAL (<main></main>) <========{
+                Contenido principal de la página web.
+            }
+
+            ========> PIE DE PÁGINA (<footer></footer>) <========{
+                Contiene el PIE de la página web.
+            }           
+        }
+
+        ========> MENÚ DE NAVEGACIÓN (<nav></nav>) <========{
+            Me permitirá crear una barra de navegación.
+            Uso: 
+                <nav>
+                    <a href="carpeta/link-url">redireccionamiento</a>
+                </nav>
+        }
+
+        ========> HIPERVÍNCULOS (<a></a>) <========{
+            ->Me permite Pegar Links/enlaces de redireccionamiento
+            a*X => Me permite crear la cantidad de HIPERVÍNCULOS que quiera.
+            Estructuras:
+                        <a href="carpeta/link-url">Tabla</a>
+                        <a href="link-url"  target="_blank">Google</a>
+        }
+
+        ========> SECCIONES (<sec></sec>) & DIVISIONES (<div></div>) <========{
+            Me permite crear secciones dentro de mi página web y divisiones.
+            EJEMPLO:
+                    <sec>
+                        <!-- CREO DIVISIONES o BLOQUES (#1)-->
+                        <div>
+                            <h1>TITULO</h1>
+                        </div>
+                        <!-- CREO DIVISIONES o BLOQUES (#2)-->
+                        <div>
+                            <img src="https://picsum.photos/200/300" alt="nombreImagen">
+                        </div>
+                    </sec> 
+        }
+
+        ========> IMAGENES (<img >) <========{
+            Puedo pegar imagenes en la página web:
+            Uso: 
+            <img src="link-url" alt="descripcionImagen">
+        }
+
+        ========> MANEJO DE TEXTOS <========{
+
+            ------ PÁRRAFOS (<p></p>) ------{
+                Indico que escribiré un párrafo.
+                lorem * X => Me permite generar un párrafo random.
+            }
+
+            ------ RESALTAR TEXTO (<mark></mark>) ------{
+                Me permite resaltar TODA una parte del texto. 
+            }
+
+            ------ RESALTAR PARTE DE TEXTO EN NEGRITA (<b></b>) ------{
+                Me permite resaltar una una parte del texto en negrita. 
+            }
+
+            ------ TEXTO EN CURSIVA (<i></i>) ------{
+                Me permite poner en cursiva una parte del texto. 
+            }
+
+            ------ SUBRAYAR TEXTO (<u></u>) ------{
+                Me permite poner en SUBRAYAR una parte del texto. 
+            }
+
+            ------ RESALTAR PALABRAS CLAVES EN NEGRITA (<strong></strong>) ------{
+                Me permite resaltar una una parte del texto en negrita, normalmente se utiliza para 
+                el programador. 
+            }        
+
+            ------ SALTO DE LINÉA (<br>) ------{
+                Me permite realizar saltos de linea. 
+                Ejemplo:                
+                        <p>HTML <br> <!-- SALTÓ DE LINEA -->
+                           CSS <br>  <!-- SALTÓ DE LINEA --> 
+                        </p>                
+            }        
+
+            ------ ETIQUETA DE SUBTITULOS (<h3></h3>) ------{
+                Me permite crear un subtitulo.
+            }                
+
+            ------ ETIQUETA DE ENCABEZADO (<h1></h1>) ------{
+                Me permite crear un texto con tamaño grande o de encabezado.
+            }   
+
+            ------ ALINEAR TEXTO [PROPIEDAD] (align) ------{
+                Me permite alinear un texto, a la izquierda, derecha o centro.
+                Ejemplo:
+                        <p align="center">HTML <br> <!-- SALTÓ DE LINEA -->
+                                          CSS <br>  <!-- SALTÓ DE LINEA -->
+                                          JavaScript</p>                
+            }  
+
+            ------ CAMBIAR COLOR DE TEXTO [PROPIEDAD] (colour) ------{
+                Me permite cambiarle el color a un encabezado.
+                EJEMPLO:
+                        <h1>
+                            <!-- CAMBIO EL COLOR DEL TEXTO -->
+                            <font color="blue">¿Qué es y qué hace un Desarrollador web? Guía completa</font>
+                        </h1>                
+            }                                 
+        }
+   }
+
+   ------------------ ATRIBUTOS ------------------
+   {
+        Me permite agregarle atributos o caracteristicas a las etiquetas.
+
+        target => Me permite que se abra el hipervinculo en una nueva pestaña. 
+   }
+}
