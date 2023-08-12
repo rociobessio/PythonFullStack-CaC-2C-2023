@@ -46,12 +46,20 @@
                 </nav>
         }
 
-        ========> HIPERVÍNCULOS (<a></a>) <========{
+        ========> HIPERVÍNCULOS / ENLACES (<a></a>) <========{
             ->Me permite Pegar Links/enlaces de redireccionamiento
             a*X => Me permite crear la cantidad de HIPERVÍNCULOS que quiera.
             Estructuras:
                         <a href="carpeta/link-url">Tabla</a>
                         <a href="link-url"  target="_blank">Google</a>
+
+            Atributos de estos:
+            - download = Especifica cuál es el objetivo que se descargará cuando un usuario haga clic en el hipervínculo.
+            - href = Es la URL de la página que redirige.
+            - target = Especifica donde abrir el documento vinculado. 
+                      * _blank = Lo abre en una nueva pestaña.
+                      * _self = En el mismo marco que hizo click.
+            - title = Muestra como un texto de información sobre herramientas cuando el mouse se mueve sobre el elemento.
         }
 
         ========> SECCIONES (<sec></sec>) & DIVISIONES (<div></div>) <========{
@@ -135,6 +143,11 @@
                             <font color="blue">¿Qué es y qué hace un Desarrollador web? Guía completa</font>
                         </h1>                
             }                                 
+        }
+        ========> LISTAS <========{
+            ------ DESORDENADAS ------{
+
+            }
         }
    }
 

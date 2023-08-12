@@ -1,0 +1,24 @@
+1. Agregar al menú de navegación el hipervinculo para mostrar listas
+2. Crear el archivo: lista.html.
+
+3. Agregar el menú de navegación en todos los archivos html: tabla.html y galeria.html
+Nota: atento(a) al momento de referenciar las rutas de los archivos.
+
+4. Trabajar en lista.html y crear 4 secciones y por sección mostrar una lista:
+ordenada, desordenada, definición, dependiente.
+
+5. Crear una carpeta para las imágenes, llamada img y guardar dos imágenes.
+
+6. Trabajar en galeria.html, agregar una sección.
+
+7. Dentro de la sección crear un división para agregar:
+una imagen,
+un subtitulo
+una descripción,
+hipervinculo para ver la imagen en una nueva ventana.
+descargar imagen,
+descargar pdf
+enviar un correo
+
+8. Crear un hipervinculo interno, que lleve a una 
+determinada sección del documento galeria.html

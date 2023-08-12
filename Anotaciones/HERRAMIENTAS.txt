@@ -3,3 +3,5 @@ Conseguir fotos random => https://picsum.photos/
 Crear texto "random" / estandarizado. => lorem*X 
 
 ALT = me permitirá seleccionar los espacios que quiera.
+
+Extension => Live Server --> para poder ejecutar en tiempo real 
