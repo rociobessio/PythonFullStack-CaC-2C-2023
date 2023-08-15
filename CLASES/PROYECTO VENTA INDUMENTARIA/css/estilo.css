@@ -8,7 +8,7 @@ body, ul {
   
   /* Estilo para el menú de navegación */
   nav {
-    background-color: #9f5e0a; /* Aquí puedes cambiar el color a tu preferencia */
+    background-color: #801702; /* Aquí puedes cambiar el color a tu preferencia */
   }
   
   ul {
@@ -45,7 +45,7 @@ body, ul {
 
 /* Estilo para el footer */
 .footer-container {
-  background-color: #9f5e0a; /* Color de fondo naranja para el footer */
+  background-color: #801702; /* Color de fondo naranja para el footer */
   padding: 10px 0; /* Espaciado interno para hacerlo más visible */
 }
 
@@ -83,4 +83,10 @@ body, ul {
   text-decoration: none;
   color: #fff;
   display: block;
+}
+
+/* Estilos para el video ajustado */
+.ajuste-video-index {
+  width: 100%; /* Ancho del video al 100% del contenedor */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción original */
 }

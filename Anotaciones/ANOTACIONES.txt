@@ -15,7 +15,61 @@
     CTRL + K + CU => Me permite DESCOMENTAR lineas de codigo.
 } 
 
+********************* CREAR ICONO *********************{
 
+    Página para convertir una imagen a ico: https://convertico.com/
+
+    - ETIQUETA: 
+    <link rel="shortcut icon" href="../img/bobs-burgers-png-picture-92620.ico" type="image/x-icon">
+
+}
+
+********************* AGREGAR MAPA (IFRAME) *********************{
+
+    Desde google Maps, busco la locación y le doy a compartir 
+    en la opción insertar en un mapa y lo pego. 
+
+}
+
+********************* AGREGAR VIDEO DE YOUTUBE (IFRAME) *********************{
+
+    Desde youtube, le doy a insertar y pego el iframe. 
+
+}
+
+********************* AGREGAR VIDEO DE FORMAL LOCAL *********************{
+
+    Etiqueta general:
+    <video src="../video/mov_bbb.mp4"></video>
+
+    Atributos:
+    controls => Me muestra los controles, es decir, volumen, maximizar, pausar.
+    autoplay => El video y el audio se reproducen automaticamente. 
+    loop => Que se muestre infinitamente
+    muted => Se ejecutara el video pero SIN audio.
+    height => Cambiar el tamaño de altura.
+    weight => Cambiar el tamaño de ancho.
+
+}
+
+********************* AGREGAR AUDIO DE FORMAL LOCAL *********************{
+
+    Etiqueta general:
+    <audio src="../audio/typical-trap-loop-2b-130751.mp3"></audio>
+
+    Atributos:
+    controls => Me muestra los controles, es decir, volumen, maximizar, pausar.
+    autoplay => El video y el audio se reproducen automaticamente. 
+    loop => Que se muestre infinitamente
+    muted => Se ejecutara el video pero SIN audio. 
+}
+
+********************* CREACIÓN DE TABLAS *********************{
+
+    
+
+
+}
 
 ********************* ETIQUETAS ********************* 
 {

@@ -1,0 +1,17 @@
+1. Trabajar en el archivo tabla.
+
+2. Incluir imagen ico
+Página para convertir una imagen a ico: https://convertico.com/
+
+3. Incluir etiquetas meta para palabras claves y descripción.
+
+4. Incorporar 4 secciones:
+una sección para incluir mapa,
+una sección para video de YouTube,
+una  sección, con dos divisiones una para video 
+y otra para audio, ambos con ruta relativa(local).
+una  sección agregar tabla.
+
+5. Página para validar HTML una vez subido al servidor: https://validator.w3.org/
+
+

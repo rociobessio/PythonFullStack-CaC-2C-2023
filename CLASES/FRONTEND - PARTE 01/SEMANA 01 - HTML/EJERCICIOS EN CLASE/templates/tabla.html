@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TABLA</title>
+
+    <!-- LA ETIQUETA META RESALTA PALABRAS CLAVES -->
+    <meta name="keywords" content="video, HTML, audio, tablas">
+    <!-- ETIQUETA PARA DESCRIPCIÓN CONSISA DE LA PÁGINA -->
+    <meta name="description" content="HTML incorpación de audio, video y tablas.">
+
+    <!-- TITULO -->
+    <title>TABLA (AUDIO-TABLA)</title>
+
+    <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
+    <link rel="shortcut icon" href="../img/bobs-burgers-png-picture-92620.ico" type="image/x-icon">
 </head>
+
+<!-- CUERPO DE LA PÁGINA -->
 <body>
     <header>
         <!-- Menú de Navegacion -->
@@ -15,16 +28,88 @@
             <a href="galeria.html">Galeria</a>
             <a href="tabla.html">Tabla</a>
             <a href="https://www.google.com/?hl=es"  target="_blank">Google</a>
-        </nav> 
+        </nav>
     </header>
-    <!-- CUERPO PRINCIPAL -->
+    <!-- CUERPO PRINCIPAL / CONTENIDO -->
     <main>
         <h1 align="center">TABLA</h1>
+        <!-- SECCION PARA INCLUIR MAPA -->
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105059.75221953502!2d-58.549257878437096!3d-34.626477015377326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb581fe35595f%3A0x801e76c3f778715e!2sJard%C3%ADn%20Bot%C3%A1nico%20Carlos%20Thays!5e0!3m2!1ses!2sar!4v1692036222973!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
 
+        <!-- INCORPORAR UN VIDEO DE YOUTUBE -->
+        <section>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UbpuZCB3x9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <!-- INCORPARAR AUDIOS Y VIDEOS -->
+        <section>
+            <!-- VIDEO DE FORMA LOCAL -->
+            <div>
+                <video src="../video/mov_bbb.mp4" controls autoplay loop muted></video>
+            </div>
+            <br>
+            <br>
+            <!-- INCORPORAR AUDIO DE FORMA LOCAL -->
+            <div>
+                <audio src="../audio/typical-trap-loop-2b-130751.mp3" controls ></audio>
+            </div>
+        </section>
+
+        <!-- ESTRUCTURA DE UNA TABLA #1-->
+        <section>
+            <br>
+            <!-- CREACION - CONSTRUCCIÓN DE TABLAS FORMA #1 -->
+            <table border="5">
+                <!-- ENCABEZADO (Nombre de COLUMNAS) 
+                --- FILA #1-->
+                <tr>
+                    <th>DIA</th>
+                    <th>MES</th>
+                    <th>AÑO</th>
+                </tr>
+                <!-- FILA #2 -->
+                <tr>
+                    <td>14</td>
+                    <td>08</td>
+                    <td>2023</td>
+                </tr>
+                <!-- FILA #3 -->
+                <tr>
+                    <td>15</td>
+                    <td>08</td>
+                    <td>2023</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ESTRUCTURA DE UNA TABLA #2 -->
+        <section >
+            <br>
+            <table border="3">
+                <!-- PERMITE ESCRIBIR EL ENCABEZADO -->
+                <thead>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                </thead>
+                <!-- PERMITE PONER LOS DATOS / ES EL CUERPO DE LA TABLA -->
+                <thead>
+                    <tr>
+                        <td>Sancho</td>
+                        <td>Panza</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
     </main>
-    <!-- PIE DE LA PAGINA -->
+    <!-- PIE DE PAGINA -->
     <footer>
-
+        <!-- ETIQUETA DE SUBTITULOS -->
+        <h3 align="center">
+            Curso Full Stack - Python
+        </h3>
     </footer>
 </body>
 </html>
