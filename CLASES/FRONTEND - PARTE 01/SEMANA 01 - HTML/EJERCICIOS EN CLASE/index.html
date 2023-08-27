@@ -6,24 +6,43 @@
     <title>SEMANA 01 - HTML</title>
     <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
     <link rel="shortcut icon" href="img/bobs-burgers-png-picture-92620.ico" type="image/x-icon">
+
+    <!-- ETIQUETA STYLE FORMA #1 ES INTERNA APLICO CSS DENTRO DEL HTML -->
+    <!-- <style>
+        h1{
+            color: rgba(9, 78, 115, 0.8); 
+            background-color: beige;
+            font-size: 3vw;/* VW es RESPONSIVE */
+        }
+    </style> -->
+
+    <!--  Vinculo el Archivo CSS FORMA #2 ES EXTERNA -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!-- ENCABEZADO -->
     <header>
-        <!-- Menú de Navegacion -->
-        <nav>
+
+        <!-- AGREGO LOGO AL ENCABEZADO -->
+        <div class="header-linea">
+            <img class="logo" src="img/codoAcodo.ico" alt="" >
+        </div>
+
+        <!-- Menú de Navegacion AGREGAMOS CLASE -->
+        <nav class="header-linea" align="center" >
             <!-- Hipervinculos -->
-            <a href="index.html">Inicio</a>
-            <a href="templates/lista.html">Listas</a>
-            <a href="templates/galeria.html">Galeria</a>
-            <a href="templates/tabla.html">Tabla</a>
-            <a href="https://www.google.com/?hl=es"  target="_blank">Google</a>
+            <a class="menu-navegacion" href="index.html">Inicio</a>
+            <a class="menu-navegacion" href="templates/lista.html">Listas</a>
+            <a class="menu-navegacion" href="templates/galeria.html">Galeria</a>
+            <a class="menu-navegacion" href="templates/formulario.html">Formulario</a>
+            <a class="menu-navegacion" href="templates/tabla.html">Tabla</a>
+            <a class="menu-navegacion" href="https://www.google.com/?hl=es"  target="_blank">Google</a>
         </nav> 
     </header>
     <!-- CONTENIDO PRINCIPAL -->
     <main>
         <!-- SECCIONES (#1)-->
-        <sec >
+        <section >
             <!-- CREO DIVISIONES o BLOQUES (#1)-->
             <div>
                 <h1 align="center">TITULO</h1>
@@ -32,11 +51,11 @@
             <div>
                 <img src="https://picsum.photos/200/300" alt="nombreImagen">
             </div>
-        </sec> 
+        </section> 
         <!-- SECCIONES (#2)-->
-        <sec>
+        <section id="seccion-parrafos">
             <!-- PARRAFOS -->
-            <p>
+            <p class="parrafo">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio consequatur vitae soluta, aliquid tenetur distinctio nemo voluptatibus quasi velit molestias doloremque quam modi reprehenderit ut aut placeat, eaque qui nihil.
                 Harum excepturi neque, laudantium in, quidem voluptatum repellendus perspiciatis aliquam reiciendis reprehenderit saepe sint commodi. Architecto dignissimos nam laudantium blanditiis repellendus. Consequatur perspiciatis asperiores unde? Laudantium labore magnam quasi quis.
                 <!-- RESALTO - MARCO una parte del TEXTO -->
@@ -59,13 +78,13 @@
                 </strong>
                 Est esse cum amet pariatur asperiores, sed natus blanditiis aliquid.
             </p>
-        </sec> 
+        </section> 
     </main>
     <!-- PIE DE PAGINA -->
     <footer>
         <!-- ETIQUETA DE SUBTITULOS -->
-        <h3 align="center">
-            Curso Full Stack - Python
+        <h3 class="pie-pagina">
+            @Curso Full Stack - Python
         </h3>
     </footer>
 </body>

@@ -1,0 +1,41 @@
+1. Trabajar en index. HTML
+
+2. Incluir estilo interno en el <head> con la etiqueta <style>
+aplicar estilo al título, agregar: color y tamaño
+color:rgba(13,13,68,0.9)
+
+3. Crear una carpeta llamada CSS.
+
+4. Dentro de la carpeta CCS crear un archivo llamado index.css
+
+5. Relacionar ambos archivos, index.css con index.html
+
+6. Agregar un logo en el encabezado dentro de un div
+
+7. Aplicar un selector universal para eliminar margen padding y 
+aplicar un estilo de fuente predeterminado.
+
+8. Aplicar estilos en el encabezado header:
+* Color de fondo, altura, borde, tamaño de fuente, alinear texto.
+colo fondo: rgba(52,152,219,0.2)
+rgba(231,76,60,0.4)
+* En los hipervínculos del nav eliminar la decoración del texto, color,
+agregar separación entre hipervínculos.
+* Alinear el logo y el menú de navegación aplicar la misma clase 
+en el nav y la división de la imagen, incorporar la propiedad para 
+alinear en bloque, agregar un margen a la derecha.
+*Agregar la clase logo a la img del logo y aplicar estilo 
+de ancho, alto, borde radios, margen superior y sombra.
+color sombra: rgba(83,175,236,0.8)
+
+9. Pie de página: color de fondo, altura, tamaño de fuente,
+color de texto alineación de texto.
+color: rgba(0,0,0,0.9)
+
+10. Fondo de la sección dos, agregar un ID s2 a la sección,
+aplicar estilo: margen, tamaño de fuente, 
+color de fondo, borde radios.
+color:  rgba(83,175,236,0.8)
+
+
+

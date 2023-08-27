@@ -1,0 +1,55 @@
+*{ /* El ASTERISCO es el universal*/
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Centro el titulo de la página */
+h1{
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* Estilo para la imagen de la sopa */
+.sopa-imagen {
+  max-width: 300px; /* Ajusta el tamaño de la imagen según tus preferencias */
+  height: auto; /* Esto garantiza que la imagen mantenga su proporción original */ 
+}
+
+/* Estilo para el contenedor de la imagen */
+.imagen-container {
+  display: flex;
+  justify-content: center;
+}
+
+header{
+  background-color: black;
+  height: 10vw;
+  font-size: 1.5vw; /* Tamaño de la font */
+  text-align: center; /* El texto que quede alineado */
+  color: aliceblue;
+}
+
+.nav{
+  background-color: gray;
+  padding: 5px;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Modifico TODOS los footers */
+footer{
+  background-color:black;
+  height: 12vh;
+  font-size: 1vw;
+  text-align: center;
+  color: white; 
+}
+
+.pie-de-pagina{
+  padding-top: 5vh;
+}
+
+.logos-redes-sociales{ 
+  font-size: 2vw;
+}

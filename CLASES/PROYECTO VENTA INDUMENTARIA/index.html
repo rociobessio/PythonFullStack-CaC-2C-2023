@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- PALABRAS CLAVES - DESCRIPCIÓN -->
     <meta name="keywords" content="Zapatillas, Indumentaria, Jordans, Vans, Converse">
     <meta name="description" content="Venta de Zapatillas e indumentaria">
 
     <!-- AGREGAR ICONO -->
-    <link rel="shortcut icon" href="favicon/icono.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/logo2.ico" type="image/x-icon">
 
     <!-- TITULO -->
     <title>OLD SKOOL</title>
-    
+
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- ENCABEZADO -->
     <header>
+        <div class="header-en-linea">
+            <a href="index.html">
+                <img src="img/otros/1.png" alt="Logo de OLD SKOOL" class="logo-pagina">
+            </a>
+        </div>
         <!-- BARRA DE NAVEGACION -->
-        <nav>
-            <ul>
-                <!-- HIPERVINCULOS -->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="templates/zapatillas.html">Zapatillas</a></li>
-                <li><a href="templates/gorras.html">Gorras</a></li>
-                <li><a href="templates/acercaDe.html">Acerca De</a></li>
-                <li><a href="templates/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="header-en-linea">
+            <a class="menu-navegacion" href="index.html">Home</a>
+            <a class="menu-navegacion" href="templates/zapatillas.html">Zapatillas</a>
+            <a class="menu-navegacion" href="templates/indumentaria.html">Indumentaria</a>
+            <a class="menu-navegacion" href="templates/acercaDe.html">Acerca De</a>
+            <a class="menu-navegacion" href="templates/contacto.html">Contacto</a>
         </nav>
     </header>
     <!-- PRINCIPAL -->
@@ -39,16 +45,25 @@
             <!-- TITULO -->
             <h1 align="center">
                 OLD SKOOL
-            </h1> 
-        </section> 
+            </h1>
+        </section>
         <!-- SECCIÓN #2 -->
-        <section> 
+        <section>
             <video src="video/videoIndex.mp4" muted autoplay loop class="ajuste-video-index"></video>
         </section>
     </main>
     <!-- PIE DE PÁGINA -->
-    <footer>
-
+    <footer class="pie-de-pagina">
+        <!-- AGREGO ICONOS DE REDES -->
+        <div class="logos-redes-sociales">
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <h4>Derechos reservados @OLDSKOOL2023</h4>
+        </div>
     </footer>
 </body>
+
 </html>

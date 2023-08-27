@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
+    <link rel="shortcut icon" href="../img/bobs-burgers-png-picture-92620.ico" type="image/x-icon">
+</head>
+<body>
+<!-- ENCABEZADO -->
+    <header>
+        <!-- Menú de Navegacion -->
+        <nav align="center">
+            <!-- Hipervinculos -->
+            <a href="../index.html">Inicio</a>
+            <a href="lista.html">Listas</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="tabla.html">Tabla</a>
+            <a href="https://www.google.com/?hl=es"  target="_blank">Google</a>
+        </nav> 
+    </header>
+<!-- CUERPO DE LA PÁGINA -->
+    <main>
+        <section>
+            <!-- CREO DIVISIONES o BLOQUES (#1)-->
+            <div>
+                <h1 align="center">FORMULARIOS</h1>
+                <!-- LINEA HORIZONTAL -->
+                <hr>
+            </div>
+        </section>
+        <!-- SECCION DE FORMULARIOS -->
+        <section>
+            <!-- FORMULARIO PARA ENVIAR INFORMACIÓN DEL TIPO POST => ENVIA INFORMACIÓN -->
+            <form action="https://formspree.io/f/xzblrbrp" method="post">
+                <!-- TEXT BOXES (TEXT) -->
+                <br>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="txtNombre" maxlength="20" minlength="3" required placeholder="EJ: Mariano">
+                </div>
+
+                <br>
+                <!-- DIV HACE QUE TENGA COMPORTAMIENTO EN BLOQUE! -->
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="txtApellido" maxlength="20" minlength="3" required placeholder="EJ: Martinez">
+                </div>
+
+                <br>
+                <!-- FECHA NACIMIENTO (DATE) -->
+                <div>
+                    <label for="fechaNacimiento">Fecha de Nacimiento: </label>
+                    <input type="date" name="fechaNacimiento" id="txtFechaNacimiento">
+                </div>
+
+                <br>
+                <!-- TEXTBOXES NUMEROS -->
+                <div>
+                    <!-- AL MENOS 18 AÑOS CON EL ATRIBUTO MIN -->
+                    <label for="edad">Edad: </label>
+                    <input type="number" name="edad" id="txtEdad" min="18">
+                </div>
+
+                <br>
+                <!-- GENERO (OPCIONES) -->
+                <div>
+                    <label for="">Seleccione un Género:</label>
+                    <!-- ETIQUETA DE SELECCION -->
+                    <select name="genero" id="IDGenero">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <br>
+                <!-- RADIO BUTTONS -->
+                <div>
+                    <h3>Seleccione Área a Desarrollarse: </h3>
+
+                    <input type="radio" name="areaDesarrollo" id="rbAplicacionWeb" value="appWeb">
+                    <label for="aplicacionWeb">Aplicación Web</label>
+
+                    <input type="radio" name="areaDesarrollo" id="rbAnalisisDatos" value="analisisDatos">
+                    <label for="analisisDatos">Analisis de Datos</label>
+
+                    <input type="radio" name="areaDesarrollo" id="rbDesarrolloJuegos" value="desarrolloJuegos">
+                    <label for="desarrolloJuegos">Desarrollo de Juegos</label>
+                </div>
+
+                <br>
+                <!-- CHECKBOXES -->
+                <div>
+                    <h3>Seleccione Tecnológias:</h3>
+
+                    <input type="checkbox" name="HTML" id="IDHTML" value="HTML">
+                    <label for="HTML">HTML</label>
+
+                    <input type="checkbox" name="CSS" id="IDCSS" value="CSS">
+                    <label for="CSS">CSS</label>
+
+                    <input type="checkbox" name="JS" id="IDJS" value="JS">
+                    <label for="JS">JS</label>
+                </div>
+
+                <br>
+                <hr>
+                <!-- SELECCION DE NAVEGADORES - LISTAS -->
+                <div>
+                    <label for="navegador">Seleccione un Navegador:</label>
+                    <input list="browsers" id="navegador" name="navegador">
+                    <datalist id="browsers">
+                        <option value="chrome">Chrome</option>
+                        <option value="opera">Opera</option>
+                        <option value="fireFox">FireFox</option>
+                        <option value="edge">Edge</option>
+                        <option value="safari">Safari</option>
+                    </datalist>
+                </div>
+
+                <br>
+                <!-- ÁREA PERSONAL - FIELDSET - GROUPBOX --> 
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div>
+                        <label for="telefono">Télefono:</label>
+                        <input type="tel" name="telefono" id="txtTelefono">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="txtEmail">
+                    </div>
+                </fieldset>
+
+                <br>
+                <!-- AREA PARA COMENTARIOS -->
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="txtComentario" cols="150" rows="10" maxlength="200"></textarea>
+                </div>
+
+                <!-- DIVISION PARA BOTONES -->
+                <hr>
+                <hr>
+                <br>
+                <!-- BOTONES -->
+                <div align="center">
+                    <input type="submit" value="ENVIAR">
+                    <input type="reset" value="BORRAR">
+                </div>
+            </form>
+        </section>
+    </main>
+<!-- PIE DE PÁGINA -->
+    <footer>
+
+    </footer>
+</body>
+</html>

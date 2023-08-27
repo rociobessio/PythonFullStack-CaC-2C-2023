@@ -71,6 +71,68 @@
 
 }
 
+
+********************* CREACIÓN DE FORMULARIOS & MANEJO *********************{
+
+    Etiqueta general:
+        <form action="" method="post"></form>    
+
+    Atributos:
+    action => A donde se enviara la información
+    method => Post (envia la información) ó GET (Obtiene informacion)
+    required => Hace que sea obligatorio llenar ese campo.
+
+    Complemetos:
+    Agregar un LABEL => <label for="">Nombre</label>
+    Ingresar datos INPUT => <input> </input> Cuenta con varios tipos texto, int,
+        A su vez cuenta con un ID.
+    Limitar edad => Atributo min => <input type="number" name="edad" id="txtEdad" min="18">
+    Min & Max Length => minLength & maxLength limitan la cantidad de letras que podemos poner
+    required => Quiere decir que llenarlo será obligatorio.
+
+    Opciones:
+                    <!-- ETIQUETA DE SELECCION -->
+                    <select name="genero" id="IDGenero"> 
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+    RadioButtons:
+        <input type="radio" name="" id="" value="">
+                            --->Name debe tener el mismo nombre asi solo PUEDO SELECCIONAR UNA
+
+    CheckBoxes:
+        <input type="checkbox" name="" id="" value="">
+
+    Lista dentro de forms y Seleccion:
+                    <input list="browsers" id="navegador" name="navegador">
+                    <datalist id="browsers"> 
+                        <option value="edge">Edge</option>
+                        <option value="safari">Safari</option>
+                    </datalist>
+        -> list en input & id en datalist --> Deben de ir con el mismo nombre 
+        Además filtra opciones.
+
+    FieldSet: borde alrededor de lo que quiero mostrar, es decir, tiene la funcion de un GROUPBOX
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div>
+                        <label for="telefono">Télefono:</label>
+                        <input type="tel" name="telefono" id="txtTelefono">
+                    </div> 
+                </fieldset>
+    
+    TextArea: Area de comentrios:
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="txtComentario" cols="150" rows="10" maxlength="200"></textarea>
+                </div>
+
+    BOTONES:
+    submit => <input type="submit" value="ENVIAR">
+    resetear => <input type="reset" value="BORRAR">
+}
+
+
 ********************* ETIQUETAS ********************* 
 {
     Las etiquetas agregan comportamientos y modifican la pagina.
@@ -118,6 +180,7 @@
 
         ========> SECCIONES (<sec></sec>) & DIVISIONES (<div></div>) <========{
             Me permite crear secciones dentro de mi página web y divisiones.
+            HACE QUE TENGA COMPORTAMIENTO EN BLOQUE
             EJEMPLO:
                     <sec>
                         <!-- CREO DIVISIONES o BLOQUES (#1)-->
@@ -211,4 +274,13 @@
 
         target => Me permite que se abra el hipervinculo en una nueva pestaña. 
    }
+}
+
+********************* CSS ********************* {
+    - Utilizaremos archivos Externos.
+    - Se encarga del aspecto y/o diseño.
+    
+    ------------------ IMPLEMENTAR INTERNAMENTE ------------------{
+
+    }
 }

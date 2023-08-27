@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocina de Rocio</title>
+    <title>La Cocina de Rocio</title>
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
-    <link rel="stylesheet" type="text/css" href="templates/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
+
+    <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
+    <link rel="shortcut icon" href="favicon/logo.ico" type="image/x-icon">
 </head>
+
 <body>
     <!-- ENCABEZADO DE LA PÁGINA -->
-    <header> 
-        <div class="background mask">
-        <!-- BARRA DE NAVEGACIÓN -->            
-            <nav>
-                <!-- HIPERVINCULOS -->
-                <ul>
-                    <li><a href="index.html">Home</a></li> 
-                    <li><a href="templates/contacto.html">Contacto</a></li>
-                    <li><a href="templates/acercaDe.html">Acerca De</a></li>
-                  </ul>
-                  <h1 align="center">
-                      La Cocina de Rocio
-                  </h1>
-            </nav>
-        </div> 
-    </header> 
-<!-- CUERPO PRINCIPAL DE LA PÁGINA -->
+    <header>
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="menu-de-navegacion">
+            <!-- HIPERVINCULOS -->
+            <a class="nav" href="index.html">Home</a>
+            <a class="nav" href="templates/contacto.html">Contacto</a>
+            <a class="nav" href="templates/registro.html">Registrate</a>
+            <a class="nav" href="templates/acercaDe.html">Acerca De</a>
+            <a class="nav" href="templates/sucursales.html">Sucursales</a>
+        </nav>
+        <h1>
+            La Cocina de Rocio
+        </h1>
+    </header>
+    <!-- CUERPO PRINCIPAL DE LA PÁGINA -->
     <main>
         <section>
             <!-- CREO UNAS DIVISIONES -->
@@ -36,22 +42,26 @@
             <div class="imagen-container">
                 <img src="Imagenes/210685.png" alt="imagenSopa" class="sopa-imagen">
             </div>
-            <!-- BARRA DE NAVEGACION -->
+
+            <br><br>
+            <a class="nav" href="templates/receta.html">Receta</a>
             <br>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="templates/receta.html">Receta</a></li> 
-                    </ul>
-                </nav>
-            </div>
         </section>
     </main>
     <!-- PIE DE LA PÁGINA -->
-    <footer class="footer-container">
-        <div> 
-            <h4 align="center">Derechos reservados @2023</h4> 
+    <footer class="pie-de-pagina">
+        <!-- AGREGO ICONOS DE REDES -->
+        <div>
+            <a class="logos-redes-sociales" href="https://twitter.com" target="_blank"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://instagram.com" target="_blank"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"
+                    aria-hidden="true"></i></a>
         </div>
-    </footer> 
+        <div>
+            <h4>Derechos reservados @2023</h4>
+        </div>
+    </footer>
 </body>
 </html>

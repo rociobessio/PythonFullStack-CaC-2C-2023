@@ -1,0 +1,59 @@
+*{ /* El ASTERISCO es el universal*/
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Modifico el header (el nav y el logo) */
+.header-en-linea{
+    display: inline-block; /*Comportamiento en linea*/
+    padding-right: 22vw;
+}
+
+/* Modifico la visualización del logo */
+.logo-pagina{
+    width: 5vw;/*Para q sea responsive*/
+    height: auto;
+    border-radius: 0% 50% 0% 50%;/* Borde del logo, lo puedo redondearlo como quiero => 0% 50% 0% 50% */
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(150, 122, 8, 0.8);/* Sombra que se le aplicará, se le especifica el tamaño para todos los lados y su color*/
+}
+
+/* Modificare TODOS los headers */
+header{
+    background-color: brown;
+    height: 19vh; /* Que sea responsive de altura*/
+    font-size: 1.5vw; /* Tamaño de la font */
+    text-align: end; /* El texto que quede alineado */
+}
+
+/* Modifico los hipervinculos 
+- quito las lineas
+- distancio los hipervinculos
+- cambio el color de la font*/
+.menu-navegacion{
+    text-decoration: none;
+    padding-right: 1.5vw;
+    color: aliceblue;
+} 
+
+/* Modifico TODOS los footers */
+footer{
+    background-color:brown;
+    height: 10vh;
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+}
+
+.pie-de-pagina{
+    padding-top: 5vh;
+}
+
+.logos-redes-sociales{ 
+    font-size: 2vw;
+}
+ 
+/* Estilos para el video ajustado */
+.ajuste-video-index {
+    width: 100%; /* Ancho del video al 100% del contenedor */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción original */
+}

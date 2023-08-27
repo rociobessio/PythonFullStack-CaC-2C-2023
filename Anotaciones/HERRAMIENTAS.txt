@@ -5,3 +5,25 @@ Crear texto "random" / estandarizado. => lorem*X
 ALT = me permitirá seleccionar los espacios que quiera.
 
 Extension => Live Server --> para poder ejecutar en tiempo real 
+
+Enviar FORMULARIOS => https://formspree.io
+
+**************** CSS ****************{
+
+Páginas para sacar colores para CSS: 
+    - Paleta de colores: https://htmlcolorcodes.com/
+    - Paleta de colores: https://colorhunt.co/
+    - Paleta de colores: https://color.adobe.com/es/create/color-wheel
+    - Paleta TOP: http://colrd.com/
+    - Paleta rgba: https://rgbacolorpicker.com/
+
+Generar el box - shadow => https://www.cssmatic.com/box-shadow
+
+Degrado de colores => https://cssgradient.io/
+
+Como elegir colores para pagina web => https://blog.hubspot.es/website/colores-para-paginas-web
+
+Reconocer fuentes (fonts) => https://www.myfonts.com/pages/whatthefont
+
+Fondos en CSS => https://desarrolloweb.com/articulos/fondos-css
+}

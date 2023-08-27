@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
+
+    <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
+    <link rel="shortcut icon" href="../favicon/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- ENCABEZADO DE LA PÁGINA -->
+    <header>
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="menu-de-navegacion">
+            <!-- HIPERVINCULOS -->
+            <a class="nav" href="../index.html">Home</a>
+            <a class="nav" href="../templates/contacto.html">Contacto</a>
+            <a class="nav" href="../templates/registro.html">Registrate</a>
+            <a class="nav" href="../templates/acercaDe.html">Acerca De</a>
+            <a class="nav" href="../templates/sucursales.html">Sucursales</a>
+        </nav>
+        <h1>
+            La Cocina de Rocio
+        </h1>
+    </header>
+    <main>
+        <div>
+            <h1>Formulario de Registro</h1>
+            <form action="show_data.html" target="_blank"> 
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="IDnombre" required
+                placeholder="Ingrese su nombre aquí..."><br><br>
+                    
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="IDapellido" required
+                placeholder="Ingrese su apellido aquí..."><br><br> 
+
+                <label for="direccion">Dirección: </label>
+                <input type="text" name="direccion" id="IDDireccion" required
+                placeholder="Ingrese su dirección aquí..."><br><br> 
+
+                <label for="ciudad">Ciudad: </label>
+                <input type="text" name="ciudad" id="IDCiudad" required
+                placeholder="Ingrese su ciudad aquí..."><br><br> 
+
+                <label for="codigoPostal">Código Postal: </label>
+                <input type="text" name="codigoPostal" id="IDCodigoPostal" required
+                placeholder="Ingrese su código postal aquí..."><br><br> 
+
+                <label for="fechaDeNacimiento">Fecha de Nacimiento (dd/mm/yyyy): </label>
+                <input type="date" name="fechaDeNacimiento" id="IDFechaDeNacimiento" required
+                placeholder="Ingrese su fecha de nacimiento aquí..."><br>
+                
+                <!-- GENERO - RADIOBUTTONS -->
+                <div>
+                    <h3>Género: </h3>
+                    <input type="radio" name="genero" id="IDGenero" value="Masculino">
+                    <label for="genero">Masculino</label>
+                    
+                    <input type="radio" name="genero" id="IDGenero" value="Femenino">
+                    <label for="genero">Femenino</label>
+
+                    <input type="radio" name="genero" id="IDGenero" value="Otro">
+                    <label for="genero">Otro</label>
+                </div>
+
+                <!-- ESTUDIOS - CHECKBOXES -->
+                <div>
+                    <h3>Estudios: </h3>
+                    <input type="checkbox" name="Primarios" id="IDPrimarios" value="Primarios">
+                    <label for="Primarios">Primarios</label>
+
+                    <input type="checkbox" name="Secundarios" id="IDSecundarios" value="Secundarios">
+                    <label for="Secundarios">Secundarios</label>
+                    
+                    <input type="checkbox" name="Terciarios" id="IDTerciarios" value="Terciarios">
+                    <label for="Terciarios">Terciarios</label>
+                    
+                    <input type="checkbox" name="Universitarios" id="IDUniversitarios" value="Universitarios">
+                    <label for="Universitarios">Universitarios</label>
+                    
+                    <input type="checkbox" name="Otros" id="IDOtros" value="Otros">
+                    <label for="Otros">Otros</label>
+                </div>
+
+                <!-- BOTONES -->
+                <br><br>
+                <div align="center">
+                    <input type="submit" value="ENVIAR">
+                </div>
+
+                <br>
+                <hr>
+                <p>Si usted hace click en el botón 'ENVIAR', la información será enviada a la página "show_data.html"</p>
+            </form>
+            <br>
+        </div>
+    </main>
+    <!-- PIE DE LA PÁGINA -->
+    <footer class="pie-de-pagina">
+        <!-- AGREGO ICONOS DE REDES -->
+        <div>
+            <a class="logos-redes-sociales" href="https://twitter.com" target="_blank"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://instagram.com" target="_blank"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"
+                    aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <h4>Derechos reservados @2023</h4>
+        </div>
+    </footer>
+</body>
+</html>

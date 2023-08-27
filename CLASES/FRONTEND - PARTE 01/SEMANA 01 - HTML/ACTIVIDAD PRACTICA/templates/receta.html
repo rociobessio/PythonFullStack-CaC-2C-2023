@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receta</title>
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
+    <!-- AGREGO UN ICONO A LA PAGINA, debe ser del tipo FAVICON -->
+    <link rel="shortcut icon" href="../favicon/logo.ico" type="image/x-icon">
 </head>
 <body>
     <!-- ENCABEZADO DE LA PÁGINA -->
-    <header> 
-        <div class="background mask">
-        <!-- BARRA DE NAVEGACIÓN -->            
-            <nav>
-                <!-- HIPERVINCULOS -->
-                <ul>
-                    <li><a href="../index.html">Home</a></li> 
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="acercaDe.html">Acerca De</a></li>
-                  </ul>
-                  <h1 align="center">
-                      La Cocina de Rocio
-                  </h1>
-            </nav>
-        </div> 
-    </header> 
+    <header>
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="menu-de-navegacion">
+            <!-- HIPERVINCULOS -->
+            <a class="nav" href="../index.html">Home</a>
+            <a class="nav" href="../templates/contacto.html">Contacto</a>
+            <a class="nav" href="../templates/registro.html">Registrate</a>
+            <a class="nav" href="../templates/acercaDe.html">Acerca De</a>
+            <a class="nav" href="../templates/sucursales.html">Sucursales</a>
+        </nav>
+        <h1>
+            La Cocina de Rocio
+        </h1>
+    </header>
 <!-- CUERPO PRINCIPAL DE LA PÁGINA -->
     <main>
         <section>
@@ -44,11 +46,58 @@
                     <br>Colocar una olla con el agua, el laurel, apio, sal. Dejarlo hervir durante 1 hora, procesar y servir.
                 </p> 
             </div>
+            <!-- USO DE TABLAS -->
+            <div>
+                <h3>Ingredientes: </h3>
+                <table align="center" border="5">
+                    <!-- Filas tr -->
+                    <tr>
+                        <th>Cant.</th>
+                        <th>Productos</th>
+                    </tr>
+                    <tr>
+                        <td>1 un.</td>
+                        <td>Calabaza</td>
+                    </tr>
+                    <tr>
+                        <td>50 cc</td>
+                        <td>Crema</td>
+                    </tr>
+                    <tr>
+                        <td>c/c</td>
+                        <td>Sal</td>
+                    </tr>
+                    <tr>
+                        <td>1 lt</td>
+                        <td>Leche</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <!-- USO DE LISTA DESORDENADA --> 
+            <h3>Tener en cuenta:</h3>
+            <ul>
+                <li>Rinde 4 porciones.</li>
+                <li>Tiempo de elaboración 1.10hs aproximadamente.</li>
+                <li>Cuenta con 50 calorías por porción.</li>
+                <li>Costo aproximado: $500</li>
+            </ul>  
         </section>
     </main>
-    <footer class="footer-container">
-        <div> 
-            <h4 align="center">Derechos reservados @2023</h4> 
+    <!-- PIE DE LA PÁGINA -->
+    <footer class="pie-de-pagina">
+        <!-- AGREGO ICONOS DE REDES -->
+        <div>
+            <a class="logos-redes-sociales" href="https://twitter.com" target="_blank"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://instagram.com" target="_blank"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a class="logos-redes-sociales" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"
+                    aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <h4>Derechos reservados @2023</h4>
         </div>
     </footer> 
 </body>

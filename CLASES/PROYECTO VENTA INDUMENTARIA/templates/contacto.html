@@ -8,29 +8,119 @@
 
     <title>Contacto</title>
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">   
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">   
+
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- ENCABEZADO -->
     <header>
-        <nav>
-            <ul>
-                <!-- HIPERVINCULOS -->
-                <li><a href="../index.html">Home</a></li>
-                <li></li><a href="zapatillas.html">Zapatillas</a></li>
-                <li></li><a href="gorras.html">Gorras</a></li>
-                <li></li><a href="acercaDe.html">Acerca De</a></li>
-                <li></li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <div class="header-en-linea">
+            <a href="../index.html">
+                <img src="../img/otros/1.png" alt="Logo de OLD SKOOL" class="logo-pagina">
+            </a>
+        </div>
+        <!-- BARRA DE NAVEGACION -->
+        <nav class="header-en-linea">
+            <a class="menu-navegacion" href="../index.html">Home</a>
+            <a class="menu-navegacion" href="zapatillas.html">Zapatillas</a>
+            <a class="menu-navegacion" href="indumentaria.html">Indumentaria</a>
+            <a class="menu-navegacion" href="acercaDe.html">Acerca De</a>
+            <a class="menu-navegacion" href="contacto.html">Contacto</a>
         </nav>
     </header>
     <!-- PRINCIPAL -->
-    <main>
+    <main> 
+        <!-- FORMULARIO ENVIO DE CONSULTAS -->
+        <section> 
+            <!-- Formulario del tipo POST, envia la consulta -->
+            <form action="https://formspree.io/f/xvojazvd" method="post"> 
+                <div>
+                    <h3>Envianos tu consulta</h3>
+                </div>
+                <!-- GROUP BOX - FIELD SET -->
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <!-- INFORMACIÓN DE CONTACTO -->
+                    <br>
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre" id="IDNombre" placeholder="EJ: Juan">
 
+                        <label for="email">Correo Electronico: </label>
+                        <input type="email" name="email" id="IDEmail" placeholder="EJ: juanrodr@outlook.com.ar" required>
+
+                        <label for="telefono">Télefono:</label>
+                        <input type="tel" name="telefono" id="txtTelefono" placeholder="EJ: 11-5678-1521" required>
+                    </div>
+
+                    <!-- INFORMACIÓN SOBRE LA LOCALIDAD -->
+                    <br>
+                    <div>
+                        <label for="direccion">Dirección: </label>
+                        <input type="text" name="direccion" id="IDDireccion"> 
+                        
+                        <label for="Numero">Número: </label>
+                        <input type="number" name="Numero" id="IDNumero">
+
+                        <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" placeholder="EJ: C.A.B.A."> <br><br>
+                        <label for="codigoPostal">Código Postal:</label><input type="text" name="codigoPostal"
+                        placeholder="EJ: 1820"> <br> <br>
+                    </div>
+
+                    <!-- INFORMACIÓN SOBRE CONSULTA - LISTAS -->
+                    <div>
+                        <label for="">Seleccione un asunto: </label>
+                        <input list="asuntos" name="asunto" id="IDAsunto">
+                        <datalist id="asuntos">
+                            <option value="Envio">Envio</option>
+                            <option value="Stock">Stock de Producto</option>
+                            <option value="Retiro">Retiro</option>
+                            <option value="Promociones">Promociones</option>
+                            <option value="Otro">Otro</option>
+                        </datalist>
+                    </div>
+
+                    <!-- ENVIAR COMENTARIO -->
+                    <br>
+                    <div>
+                        <label for="Comentario"><b>Consulta - Comentario:</b></label>
+                        <textarea name="Comentario" id="IDComentario" cols="120" rows="10" maxlength="500"></textarea>
+                    </div>
+
+                    <!-- BOTONES  -->
+                    <br>
+                    <div align="center">
+                        <input type="submit" value="ENVIAR">
+                        <input type="reset" value="BORRAR">
+                    </div>
+                </fieldset>
+            </form>
+            <br>
+            <p align="center">Si presiona Enviar, se enviará un mail con su consulta y/o comentario.</p>
+        </section>
+        
+        <!-- CONTACTO DE TELEFONO -->
+        <br>
+        <hr>
+        <section>
+            <div>
+                <p><b>Número de Télefono:</b>11 - 3822 - 5232</p>
+            </div>
+        </section>
     </main>
     <!-- PIE DE PÁGINA -->
-    <footer>
-
+    <footer class="pie-de-pagina">
+        <!-- AGREGO ICONOS DE REDES -->
+        <div class="logos-redes-sociales">
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <h4>Derechos reservados @OLDSKOOL2023</h4>
+        </div>
     </footer>
 </body>
 </html>

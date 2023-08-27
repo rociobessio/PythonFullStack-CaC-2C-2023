@@ -8,7 +8,7 @@ body, ul {
   
   /* Estilo para el menú de navegación */
   nav {
-    background-color: #801702; /* Aquí puedes cambiar el color a tu preferencia */
+    background-color: #47b9ed; /* Aquí puedes cambiar el color a tu preferencia */
   }
   
   ul {
@@ -23,7 +23,7 @@ body, ul {
     margin: 0 10px; /* Espaciado entre elementos del menú */
   }
   
-  a {
+  a{
     text-decoration: none;
     color: #fff; /* Color del texto del enlace */
     padding: 10px 15px; /* Espaciado interno para hacer clic más fácil */
@@ -45,7 +45,7 @@ body, ul {
 
 /* Estilo para el footer */
 .footer-container {
-  background-color: #801702; /* Color de fondo naranja para el footer */
+  background-color: #47b9ed; /* Color de fondo naranja para el footer */
   padding: 10px 0; /* Espaciado interno para hacerlo más visible */
 }
 
@@ -90,3 +90,42 @@ body, ul {
   width: 100%; /* Ancho del video al 100% del contenedor */
   height: auto; /* Altura ajustada automáticamente para mantener la proporción original */
 }
+
+/* Estilos para la barra de navegación */
+.nav-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-item {
+  margin-right: 20px; /* Espaciado entre el logo y los enlaces */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-link img {
+  width: 40px; /* Ajusta el ancho de la imagen del logo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-right: 10px; /* Espaciado entre el logo y el texto */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-container li a {
+  text-decoration: none;
+  color: #991d10;
+  margin-right: 15px; /* Espaciado entre los enlaces */
+}
+
+.nav-container li a:hover {
+  color: orangered;
+}
+
+
+
