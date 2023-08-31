@@ -1,12 +1,20 @@
 *{ /* El ASTERISCO es el universal*/
     margin: 0%;
     padding: 0%;
+    font-family: "Changa";
 }
 
 /* Modifico el header (el nav y el logo) */
 .header-en-linea{
     display: inline-block; /*Comportamiento en linea*/
     padding-right: 22vw;
+}
+/* MODIFICARÁ AQUELLAS ETIQUETAS H1 DENTRO DEL ARCHIVO LINKEADO */
+h1{
+    color: rgba(23, 188, 234, 0.8); 
+    background-color: brown;
+    font-size: 3vw;/* VW es RESPONSIVE */
+    text-align: center;
 }
 
 /* Modifico la visualización del logo */
@@ -20,9 +28,12 @@
 /* Modificare TODOS los headers */
 header{
     background-color: brown;
-    height: 19vh; /* Que sea responsive de altura*/
+    height: 15vh; /* Que sea responsive de altura*/
     font-size: 1.5vw; /* Tamaño de la font */
     text-align: end; /* El texto que quede alineado */
+
+    position: fixed;/*Que el encabezado quede pegado*/
+    padding-left: 10.1vw;
 }
 
 /* Modifico los hipervinculos 
@@ -31,7 +42,7 @@ header{
 - cambio el color de la font*/
 .menu-navegacion{
     text-decoration: none;
-    padding-right: 1.5vw;
+    padding-right: 1.7vw;
     color: aliceblue;
 } 
 
@@ -56,4 +67,9 @@ footer{
 .ajuste-video-index {
     width: 100%; /* Ancho del video al 100% del contenedor */
     height: auto; /* Altura ajustada automáticamente para mantener la proporción original */
+}
+
+/* Edito la primera seccion */
+.seccion-1{
+    padding-top: 15vh; /*Un poco mas que el header*/
 }

@@ -10,8 +10,11 @@
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">   
 
-    <!-- LINK DE ICONOS FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Raleway:wght@300&family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- ENCABEZADO -->
@@ -33,7 +36,7 @@
     <!-- PRINCIPAL -->
     <main> 
         <!-- FORMULARIO ENVIO DE CONSULTAS -->
-        <section> 
+        <section class="seccion-1"> 
             <!-- Formulario del tipo POST, envia la consulta -->
             <form action="https://formspree.io/f/xvojazvd" method="post"> 
                 <div>
@@ -47,10 +50,10 @@
                     <div>
                         <label for="nombre">Nombre: </label>
                         <input type="text" name="nombre" id="IDNombre" placeholder="EJ: Juan">
-
+                        
                         <label for="email">Correo Electronico: </label>
                         <input type="email" name="email" id="IDEmail" placeholder="EJ: juanrodr@outlook.com.ar" required>
-
+                        
                         <label for="telefono">Télefono:</label>
                         <input type="tel" name="telefono" id="txtTelefono" placeholder="EJ: 11-5678-1521" required>
                     </div>
@@ -63,7 +66,7 @@
                         
                         <label for="Numero">Número: </label>
                         <input type="number" name="Numero" id="IDNumero">
-
+                        
                         <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" placeholder="EJ: C.A.B.A."> <br><br>
                         <label for="codigoPostal">Código Postal:</label><input type="text" name="codigoPostal"
                         placeholder="EJ: 1820"> <br> <br>
@@ -81,7 +84,7 @@
                             <option value="Otro">Otro</option>
                         </datalist>
                     </div>
-
+                    
                     <!-- ENVIAR COMENTARIO -->
                     <br>
                     <div>
@@ -123,4 +126,6 @@
         </div>
     </footer>
 </body>
+    <!-- LINK DE ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1f548e1441.js" crossorigin="anonymous"></script>
 </html>
