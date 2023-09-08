@@ -1,0 +1,70 @@
+label input{
+    font-size: 1.0vw;
+}
+
+label {
+    display: inline-block; /* Mostrar en la misma línea */
+    width: 30%; /* Ancho del label, ajusta según tus necesidades */
+    text-align: left; /* Alinear el texto a la derecha */
+    margin-right: 2%; /* Agregar un pequeño margen derecho para separación */
+    margin-left: 1%;
+    font-size: 1.5vw;
+  }
+  
+  /* Estilo para los input */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"] {
+    width: 65%; /* Ancho del input, ajusta según tus necesidades */
+    padding: 1vw;
+    margin: 0.5vw 0;
+    display: inline-block; /* Mostrar en la misma línea */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+/*ajustes de botón*/
+input[type=submit]{
+    width: 100%;
+    background-color:rgba(23, 188, 234, 0.8);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*ajustes de botón*/
+input[type=reset]{
+    width: 100%;
+    background-color:brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=rest]:hover{
+    background-color:rgba(139, 0, 0, 0.776);
+}
+
+input[type=submit]:hover{
+    background-color:cornflowerblue;
+}
+
+.formulario{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 1% 20%;
+}
+
+textarea{
+    width: 80%;
+}

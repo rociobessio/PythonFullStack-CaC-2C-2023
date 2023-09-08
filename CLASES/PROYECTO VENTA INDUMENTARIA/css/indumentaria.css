@@ -1,0 +1,36 @@
+.division-4 {
+    display: flex; /* Usar flexbox para alinear elementos verticalmente */
+    background-image: url('../img/indumentaria/cream-polo/poloCrema.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cubrir todo el contenedor con la imagen */
+    height: 40vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    align-items: center; /* Centrar verticalmente dentro de .division-4 */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+.imagen {
+    flex: 1; /* Que la imagen ocupe el espacio disponible */
+    max-width: 40%; /* Limitar el ancho de la imagen */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.texto-derecha {
+    flex: 1; /* Que el texto ocupe el espacio disponible */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+
+
+
+/* Que me cambie la imagen,
+Podriá hacer esto y que se agrande como en el 
+archivo scale_img */
+@keyframes cambiar {
+    0%{background-image: url('../img/indumentaria/cream-polo/poloCrema.jpg'); left: 0vw;top: 0vh;}
+    25%{background-image: url('../img/indumentaria/cream-polo/poloUpClose.jpg');left: 0vw;top: 0vh;}
+    50%{background-image: url('../img/indumentaria/cream-polo/poloReverso3.jpg');left: 0vw;top: 0vh;}
+    100%{background-image: url('../img/indumentaria/cream-polo/poloUpClose2.jpg');left: 0vw;top: 0vh;}
+}

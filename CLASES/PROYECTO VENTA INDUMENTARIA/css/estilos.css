@@ -7,7 +7,7 @@
 /* Modifico el header (el nav y el logo) */
 .header-en-linea{
     display: inline-block; /*Comportamiento en linea*/
-    padding-right: 22vw;
+    padding-right: 19.9vw; 
 }
 /* MODIFICARÁ AQUELLAS ETIQUETAS H1 DENTRO DEL ARCHIVO LINKEADO */
 h1{
@@ -23,6 +23,9 @@ h1{
     height: auto;
     border-radius: 0% 50% 0% 50%;/* Borde del logo, lo puedo redondearlo como quiero => 0% 50% 0% 50% */
     box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(150, 122, 8, 0.8);/* Sombra que se le aplicará, se le especifica el tamaño para todos los lados y su color*/
+    float: left;
+    margin-right: 1.5vw; /* Ajusta el margen derecho según tu preferencia */
+
 }
 
 /* Modificare TODOS los headers */
@@ -63,6 +66,11 @@ footer{
     font-size: 2vw;
 }
  
+.logos-red{
+    color: white;
+    text-align: center;
+}
+
 /* Estilos para el video ajustado */
 .ajuste-video-index {
     width: 100%; /* Ancho del video al 100% del contenedor */

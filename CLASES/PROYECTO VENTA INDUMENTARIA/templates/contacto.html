@@ -9,7 +9,7 @@
     <title>Contacto</title>
     <!-- Aquí se vincula el archivo CSS donde definiremos el color de fondo -->
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">   
-
+    <link rel="stylesheet" type="text/css" href="../css/contacto.css">
     
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,36 +38,33 @@
         <!-- FORMULARIO ENVIO DE CONSULTAS -->
         <section class="seccion-1"> 
             <!-- Formulario del tipo POST, envia la consulta -->
-            <form action="https://formspree.io/f/xvojazvd" method="post"> 
+            <form action="https://formspree.io/f/xvojazvd" method="post" class="formulario"> 
                 <div>
                     <h3>Envianos tu consulta</h3>
                 </div>
                 <!-- GROUP BOX - FIELD SET -->
                 <fieldset>
-                    <legend>Datos Personales</legend>
+                    <legend>Información</legend>
                     <!-- INFORMACIÓN DE CONTACTO -->
                     <br>
                     <div>
                         <label for="nombre">Nombre: </label>
                         <input type="text" name="nombre" id="IDNombre" placeholder="EJ: Juan">
                         
-                        <label for="email">Correo Electronico: </label>
-                        <input type="email" name="email" id="IDEmail" placeholder="EJ: juanrodr@outlook.com.ar" required>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="IDEmail" placeholder="EJ: juanrodr@outlook.com.ar" required><br>
                         
                         <label for="telefono">Télefono:</label>
                         <input type="tel" name="telefono" id="txtTelefono" placeholder="EJ: 11-5678-1521" required>
-                    </div>
 
-                    <!-- INFORMACIÓN SOBRE LA LOCALIDAD -->
-                    <br>
-                    <div>
+                    <!-- INFORMACIÓN SOBRE LA LOCALIDAD --> 
                         <label for="direccion">Dirección: </label>
                         <input type="text" name="direccion" id="IDDireccion"> 
                         
                         <label for="Numero">Número: </label>
                         <input type="number" name="Numero" id="IDNumero">
                         
-                        <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" placeholder="EJ: C.A.B.A."> <br><br>
+                        <label for="ciudad">Ciudad: </label><input type="text" name="ciudad" placeholder="EJ: C.A.B.A.">
                         <label for="codigoPostal">Código Postal:</label><input type="text" name="codigoPostal"
                         placeholder="EJ: 1820"> <br> <br>
                     </div>
@@ -117,9 +114,9 @@
     <footer class="pie-de-pagina">
         <!-- AGREGO ICONOS DE REDES -->
         <div class="logos-redes-sociales">
-            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="logos-red" href="https://github.com/rociobessio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="logos-red" href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="logos-red" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
         <div>
             <h4>Derechos reservados @OLDSKOOL2023</h4>

@@ -5,3 +5,8 @@ Agregar mi github al footer
 Cambiar font
 
 Ver de poner fondo?
+
+Agregar imagenes que se muevan
+
+Modificar el apartado de contacto y que aparezcan
+los inputs en distintas columnas 
