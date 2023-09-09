@@ -81,3 +81,28 @@ footer{
 .seccion-1{
     padding-top: 15vh; /*Un poco mas que el header*/
 }
+
+/*Para pantalla chica*/
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column ;
+        height: 30vh;
+    }
+
+    .menu-navegacion{
+        font-size: 3vw;
+    }
+
+    .logo-pagina{
+        width: 15vw;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    a{
+        font-size: 3vw;
+    }
+}

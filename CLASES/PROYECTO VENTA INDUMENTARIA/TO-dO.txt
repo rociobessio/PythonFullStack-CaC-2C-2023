@@ -1,12 +1,14 @@
-Fijar Barra de navegacion
+Fijar Barra de navegacion [Listo]
 
-Agregar mi github al footer
+Agregar mi github al footer [Listo]
 
-Cambiar font
+Cambiar font [Listo]
 
 Ver de poner fondo?
 
 Agregar imagenes que se muevan
 
 Modificar el apartado de contacto y que aparezcan
-los inputs en distintas columnas 
+los inputs en distintas columnas [LISTO]
+
+Mostrar cartas ultma clase

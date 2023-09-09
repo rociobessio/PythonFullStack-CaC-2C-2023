@@ -1,31 +1,71 @@
-.division-4 {
-    display: flex; /* Usar flexbox para alinear elementos verticalmente */
-    background-image: url('../img/indumentaria/cream-polo/poloCrema.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; /* Cubrir todo el contenedor con la imagen */
-    height: 40vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    align-items: center; /* Centrar verticalmente dentro de .division-4 */
-    justify-content: space-between; /* Espacio entre elementos */
+.card{
+    background-color: rgba(16, 95, 117, 0.8);
+    width: 20vw;
+    height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    position: relative; /* Agrega esta propiedad para posicionar el texto */
+    overflow: hidden; /* Oculta el contenido que se desborda */
 }
 
-.imagen {
-    flex: 1; /* Que la imagen ocupe el espacio disponible */
-    max-width: 40%; /* Limitar el ancho de la imagen */
-    margin-right: 20px; /* Espacio a la derecha de la imagen */
+.card img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% de la tarjeta */
+    height: 100%; /* Ajusta la altura de la imagen al 100% de la tarjeta */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta la imagen si es necesario */
 }
 
-.texto-derecha {
-    flex: 1; /* Que el texto ocupe el espacio disponible */
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
+.card:hover{
+    background-color: brown;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-section{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(25vw,1fr));/*La cant d columnas, (su ancho max),*/
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+.descripcion{
+    font-size: 1vw;
+    text-align: center;
+}
+
+/*Modifico el header*/
+header{ 
+    position: static;/*Que el encabezado quede pegado*/ 
+} 
+/*PUNTOS DE CORTE*/
+@media screen and (max-width:600px) {
+    .card-section{
+        grid-template-columns: repeat(1,minmax(25,1fr));
+    }
+
+    .card{
+        width: 55vw;
+        height: 45vh;
+    }
+
+    .card > img{
+        width: 55vw;
+        height: auto;
+    }
+
+    .descripcion{
+        font: 4vw;
+    }
 }
 
 
-
-
-/* Que me cambie la imagen,
+/*Que me cambie la imagen,
 Podriá hacer esto y que se agrande como en el 
 archivo scale_img */
 @keyframes cambiar {
@@ -33,4 +73,5 @@ archivo scale_img */
     25%{background-image: url('../img/indumentaria/cream-polo/poloUpClose.jpg');left: 0vw;top: 0vh;}
     50%{background-image: url('../img/indumentaria/cream-polo/poloReverso3.jpg');left: 0vw;top: 0vh;}
     100%{background-image: url('../img/indumentaria/cream-polo/poloUpClose2.jpg');left: 0vw;top: 0vh;}
-}
+}  
+ 
